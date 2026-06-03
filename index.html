@@ -1,51 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lumen Setup Guide</title>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    line-height: 1.6;
-}
-
-h1 {
-    text-align: center;
-}
-
-pre {
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 5px;
-    overflow-x: auto;
-}
-</style>
-</head>
-
-<body>
-
-<h1>Lumen</h1>
-
-<p>Setup and run the LUMEN project using the following commands:</p>
-
-<pre>
+# Lumen Depolyment 
+# Pre Req  Node Js and Git Must be installed 
 git clone --recurse-submodules https://github.com/Koifman/LUMEN.git
-
-node -v
+node -v 
 npm -v
-
 npm install
-
-npm run build
-# You have to do this since we get the rule numbers/categories
-# from a manifest file generated at build
-
-npm run dev
-# app at http://localhost:5173
-</pre>
-
-</body>
-</html>
+npm run build # You have to do this since we get the rule numbers/categories from a manifest file generated at build
+npm run dev  # app at http://localhost:5173
